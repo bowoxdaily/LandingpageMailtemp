@@ -186,10 +186,14 @@ export default function Home({ searchParams }: HomeProps) {
       <header className="sticky top-0 z-50 border-b border-slate-200/80 bg-white/90 backdrop-blur-xl">
         <div className="mx-auto flex h-20 w-full max-w-[1200px] items-center justify-between px-5 sm:px-8 lg:px-10">
           <a href="#home" className="flex items-center gap-3">
-            <span className="inline-flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-cyan-500 to-blue-600 text-sm font-bold text-white shadow-sm shadow-cyan-200">
-              TM
-            </span>
-            <span className="text-lg font-bold tracking-tight">TempMailKit</span>
+            <Image
+              src="/demo/logo.png"
+              alt=""
+              width={280}
+              height={84}
+              className="h-12 w-auto object-contain sm:h-14 lg:h-16"
+            />
+            <span className="text-lg font-bold tracking-tight sm:text-xl">TempMailKit</span>
           </a>
 
           <nav className="hidden items-center gap-7 text-sm font-medium md:flex">
