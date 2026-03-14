@@ -218,6 +218,7 @@ export default function Home({ searchParams }: HomeProps) {
             href={orderLink}
             target="_blank"
             rel="noopener noreferrer"
+            data-track-buy="true"
             className="inline-flex items-center justify-center rounded-full bg-cyan-600 px-5 py-2.5 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:bg-cyan-500"
           >
             {copy.navCta}
@@ -277,6 +278,7 @@ export default function Home({ searchParams }: HomeProps) {
                   href={orderLink}
                   target="_blank"
                   rel="noopener noreferrer"
+                  data-track-buy="true"
                   className="inline-flex items-center justify-center rounded-full bg-cyan-600 px-6 py-3 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:bg-cyan-500"
                 >
                   {copy.primaryCta}
@@ -509,6 +511,7 @@ export default function Home({ searchParams }: HomeProps) {
                 href={orderLink}
                 target="_blank"
                 rel="noopener noreferrer"
+                data-track-buy="true"
                 className="inline-flex h-12 items-center justify-center rounded-full bg-cyan-600 px-7 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:bg-cyan-500"
               >
                 Beli Source Code Sekarang
@@ -590,6 +593,7 @@ export default function Home({ searchParams }: HomeProps) {
                 href={orderLink}
                 target="_blank"
                 rel="noopener noreferrer"
+                data-track-buy="true"
                 className="inline-flex items-center justify-center rounded-full bg-cyan-600 px-6 py-3 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:bg-cyan-500"
               >
                 Beli Sekarang
@@ -626,6 +630,7 @@ export default function Home({ searchParams }: HomeProps) {
                 href={orderLink}
                 target="_blank"
                 rel="noopener noreferrer"
+                data-track-buy="true"
                 className="inline-flex items-center justify-center rounded-full bg-cyan-500 px-6 py-3 text-sm font-semibold text-slate-950 transition hover:-translate-y-0.5 hover:bg-cyan-400"
               >
                 {copy.finalPrimaryCta}
@@ -645,6 +650,7 @@ export default function Home({ searchParams }: HomeProps) {
             href={orderLink}
             target="_blank"
             rel="noopener noreferrer"
+            data-track-buy="true"
             className="inline-flex w-full items-center justify-center rounded-full bg-cyan-600 px-6 py-3 text-sm font-bold text-white shadow-lg shadow-cyan-300/50 transition hover:bg-cyan-500"
           >
             {copy.primaryCta}
